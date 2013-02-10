@@ -31,7 +31,7 @@ Thou shall then invoke the following command to bring some faerie to your termin
 
 `$ fortune metal-fairy-tale`
 
-** Optional
+## Optional
 If for any reason you want to regenerate the random access file (metal-fairy-tale.dat),
 say to hav strings in a different order, just run `strfile` with the desired options:
 
