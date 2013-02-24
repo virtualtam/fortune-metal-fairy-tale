@@ -22,14 +22,28 @@ Y'like fairy tales? Wonder how your fav Metal (sub-)genre Knight would behave?
 
 # DISCLAIMER
 
-Use this at your own risk. One does not simply rock into his Office. Hasardous content, may or may not be safe for work.
+Use this at your own risk. One does not simply rock into his office. Hasardous content, may or may not be safe for work.
 
 # INSTALLATION & USAGE
 
-Just copy the files 'metal-fairy-tale' and 'metal-fairy-tale.dat' to '/usr/share/fortune'!
+## ArchLinux
+This fortune-mod is available in the AUR, just look for the `fortune-mod-metalfairytale-git` and
+`fortune-mod-metalfairytale-fr-git` packages!
+
+
+## Manual installation
+
+Provided you already have a fortune-cookie program installed, just copy the files `metal-fairy-tale` and `metal-fairy-tale.dat`
+to `/usr/share/fortune`!
 Thou shall then invoke the following command to bring some faerie to your terminal...
 
 `$ fortune metal-fairy-tale`
+
+## Frog version
+Same as above... just use `metal-fairy-tale-fr` and `metal-fairy-tale-fr.dat` instead!
+Invoke with:
+
+`$ fortune metal-fairy-tale-fr`
 
 ## Optional
 If for any reason you want to regenerate the random access file (metal-fairy-tale.dat),
@@ -40,12 +54,12 @@ say to hav strings in a different order, just run `strfile` with the desired opt
 
 # CREDITS FOR C00KIES
 
-The contents of the fortune-mod files come from miscellaneous sources from all over the web, respectively:
+The contents of this fortune-mod originally come from miscellaneous sources from all over the web, respectively:
 
 The original thread written by Sean Tran, "A Young Person's Guide to Metal":
 * http://www.progarchives.com/forum/forum_posts.asp?TID=23990
 
-And lots of variants:
+And a handful of variants:
 * http://www.progarchives.com/forum/forum_posts.asp?TID=33868
 * http://www.sevenstring.org/forum/general-music-discussion/22849-metal-styles-explained-through-dragon-princess-story-2.html
 * http://rateyourmusic.com/list/emperorsakis/how_would_any_type_of_metalhead_save_the_princess_from_the_dragon_
