@@ -47,7 +47,7 @@ Invoke with:
 
 ## Optional
 If for any reason you want to regenerate the random access file (metal-fairy-tale.dat),
-say to hav strings in a different order, just run `strfile` with the desired options:
+say to have strings in a different order, just run `strfile` with the desired options:
 
 `$ strfile [MY_OWN_EVIL_OPTIONS] metal-fairy-tale`
 
