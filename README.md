@@ -3,65 +3,59 @@
 Y'like fairy tales? Wonder how your fav Metal (sub-)genre Knight would behave?
 
 
-# LICENSE
+## Disclaimer
 
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+Use at your own risk. One does not simply rock into his office.
+Contains hasardous content, might or not be safe for work and home usage.
 
-    Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+## Installation & usage
 
-    Everyone is permitted to copy and distribute verbatim or modified
-    copies of this license document, and changing it is allowed as long
-    as the name is changed.
-
-             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-    0. You just DO WHAT THE FUCK YOU WANT TO.
+### ArchLinux (AUR)
+This fortune-mod is available in the AUR, just look for the
+[`fortune-mod-metalfairytale-git`](https://aur.archlinux.org/packages/fortune-mod-metalfairytale-git/)
+and
+[`fortune-mod-metalfairytale-fr-git`](https://aur.archlinux.org/packages/fortune-mod-metalfairytale-fr-git/)
+packages!
 
 
-# DISCLAIMER
+### Manual installation
 
-Use this at your own risk. One does not simply rock into his office. Hasardous content, may or may not be safe for work.
+Provided you already have a fortune-cookie program installed, just copy the
+`metal-fairy-tale` and `metal-fairy-tale.dat` files to `/usr/share/fortune`!
 
-# INSTALLATION & USAGE
-
-## ArchLinux
-This fortune-mod is available in the AUR, just look for the `fortune-mod-metalfairytale-git` and
-`fortune-mod-metalfairytale-fr-git` packages!
-
-
-## Manual installation
-
-Provided you already have a fortune-cookie program installed, just copy the files `metal-fairy-tale` and `metal-fairy-tale.dat`
-to `/usr/share/fortune`!
 Thou shall then invoke the following command to bring some faerie to your terminal...
 
-`$ fortune metal-fairy-tale`
+```bash
+$ fortune metal-fairy-tale
+```
 
-## Frog version
+### Frog variant
 Same as above... just use `metal-fairy-tale-fr` and `metal-fairy-tale-fr.dat` instead!
 Invoke with:
 
-`$ fortune metal-fairy-tale-fr`
+```bash
+$ fortune metal-fairy-tale-fr
+```
 
-## Optional
+### Optional
 If for any reason you want to regenerate the random access file (metal-fairy-tale.dat),
 say to have strings in a different order, just run `strfile` with the desired options:
 
-`$ strfile [MY_OWN_EVIL_OPTIONS] metal-fairy-tale`
+```bash
+$ strfile [MY_OWN_EVIL_OPTIONS] metal-fairy-tale
+```
 
+## CREDITS FOR C00KIES
 
-# CREDITS FOR C00KIES
-
-The contents of this fortune-mod originally come from miscellaneous sources from all over the web, respectively:
+The contents of this fortune-mod originally come from miscellaneous sources
+from all over the web, respectively:
 
 The original thread written by Sean Tran, "A Young Person's Guide to Metal":
-* http://www.progarchives.com/forum/forum_posts.asp?TID=23990
+- http://www.progarchives.com/forum/forum_posts.asp?TID=23990
 
 And a handful of variants:
-* http://www.progarchives.com/forum/forum_posts.asp?TID=33868
-* http://www.sevenstring.org/forum/general-music-discussion/22849-metal-styles-explained-through-dragon-princess-story-2.html
-* http://rateyourmusic.com/list/emperorsakis/how_would_any_type_of_metalhead_save_the_princess_from_the_dragon_
-* http://secondchance.lacoctelera.net/post/2010/06/16/metalheads-go-to-rescue
-* http://forum.softpedia.com/lofiversion/index.php/t53503.html
+- http://www.progarchives.com/forum/forum_posts.asp?TID=33868
+- http://www.sevenstring.org/forum/general-music-discussion/22849-metal-styles-explained-through-dragon-princess-story-2.html
+- http://rateyourmusic.com/list/emperorsakis/how_would_any_type_of_metalhead_save_the_princess_from_the_dragon_
+- http://secondchance.lacoctelera.net/post/2010/06/16/metalheads-go-to-rescue
+- http://forum.softpedia.com/lofiversion/index.php/t53503.html
